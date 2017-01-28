@@ -1,0 +1,56 @@
+header {
+  position: relative;
+  height: 50px;
+  font-family: "Righteous";
+  border-bottom: 1px solid #1a1a1a;
+}
+
+header ul {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 50%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%);
+}
+
+header ul li {
+  width: 16%;
+  height: 50px;
+  display: inline-block;
+  transition: 1s;
+  margin-left: -6px;
+}
+
+header ul li:hover {
+  background-color: #737373;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+header ul ul {
+  display: none;
+}
+
+header ul ul li {
+  display: inline-block;
+}
+
+header a:link {
+  color: #1a1a1a;
+}
+
+.selected {
+  color: lightgray;
+  background-color: #1a1a1a;
+}
+
+.selected:hover {
+  background-color: #1a1a1a;
+}

@@ -1,0 +1,43 @@
+#results {
+  height: 200px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.match {
+  position: relative;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  float:left;
+  width: 45%;
+}
+
+.match table {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.match:hover {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.last {
+  margin-right: 5%;
+}
+
+.next {
+  margin-left: 5%;
+}
+
+.winner {
+  font-weight: bold;
+  color: #269900
+}
+
+.looser {
+  font-weight: bold;
+  color: #990000
+}

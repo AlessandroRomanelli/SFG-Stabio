@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightgray;
+  color: #1a1a1a;
+  font-family: "Roboto"
+}
+
+table td {
+  width: 120px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  text-align: justify;
+  padding: 5px 20px 20px;
+  transition: .25s;
+}
+
+.container:hover {
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 10px;
+}
+
+.container h3 {
+  text-align: center;
+  font-size:
+}
+
+.container a:link {
+  color: inherit;
+  font-weight: bold;
+}
+
+.container a:visited {
+  color: inherit;
+}
